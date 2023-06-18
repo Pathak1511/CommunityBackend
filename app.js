@@ -55,12 +55,10 @@ app.use(
 app.use(cors());
 
 // ROUTEs
-if (process.env.NODE_ENV === 'development') {
-  app.use('/v1/auth', userRoutes);
-  app.use('/v1/community', communityRoutes);
-  app.use('/v1/role', roleRoutes);
-  app.use('/v1/member', memberRoutes);
-}
+app.use('/v1/auth', userRoutes);
+app.use('/v1/community', communityRoutes);
+app.use('/v1/role', roleRoutes);
+app.use('/v1/member', memberRoutes);
 
 app.all('*', function (req, res, next) {
   const err = new AppError(`Can't find ${req.originalUrl} in this server!`);
