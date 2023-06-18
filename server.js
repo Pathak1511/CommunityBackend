@@ -8,8 +8,6 @@ process.on('uncaughtException', (err) => {
 
 dotenv.config({ path: '.env' });
 const app = require('./app');
-//mongodb+srv://MasterPathak:GBDnR4QNcLaAGhMu@cluster0.azvfc2o.mongodb.net/?retryWrites=true&w=majority
-
 // REQUIRED MODULES
 //////////////////////////////////////////
 
