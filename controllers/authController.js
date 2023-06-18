@@ -78,6 +78,9 @@ exports.logout = catchAsync(async (req, res, next) => {
 // to get user data
 exports.getMe = catchAsync(async (req, res, next) => {
   let token = req.headers.cookie;
+  if (!token) {
+    return next(new AppError('Unauthorized', 401));
+  }
   if (req.headers.cookie && req.headers.cookie.startsWith('Bearer')) {
     const cookies = req.headers.cookie.split(';');
     token = cookies
