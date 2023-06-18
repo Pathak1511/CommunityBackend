@@ -11,7 +11,7 @@ const sendErrorProd = (err, res) => {
   if (err.isOperational) {
     res.status(err.statusCode).json({
       status: err.status,
-      message: 'Data not Found',
+      message: err,
     });
     // for frontend
     // res.status(err.statusCode).render('error', {
@@ -23,7 +23,7 @@ const sendErrorProd = (err, res) => {
   } else {
     res.status(500).json({
       status: 'error',
-      message: 'Internal Server Error ❤️‍🔥',
+      message: err.message,
     });
     // for frontend
     // res.status(err.statusCode).render('error', {
@@ -44,7 +44,7 @@ module.exports = (err, req, res, next) => {
     sendErrorDev(err, res);
   } else {
     console.log(`Error occured in ${process.env.NODE_ENV}`);
-    let error = { ...err };
-    sendErrorProd(error, res);
+    //let error = { ...err };
+    sendErrorProd(err, res);
   }
 };
