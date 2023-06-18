@@ -100,3 +100,17 @@ exports.getMe = catchAsync(async (req, res, next) => {
     },
   });
 });
+
+// protect routes
+exports.protect = catchAsync(async (req, res, next) => {
+  let token;
+  if (req.headers.cookie && req.headers.cookie.startsWith('Bearer')) {
+    token = req.headers.cookie.split('=');
+  }
+
+  if (!token) {
+    return next(new AppError('Unauthorized', 401));
+  }
+  const decode = await promisify(jwt.verify)(token[1], process.env.JWT_SECRET);
+  next();
+});

@@ -7,6 +7,6 @@ router.route('/signup').post(authRouter.signup);
 // Sign in
 router.route('/signin').post(authRouter.signin);
 // Get me
-router.route('/me').get(authRouter.getMe);
+router.route('/me').get(authRouter.protect, authRouter.getMe);
 
 module.exports = router;
