@@ -6,7 +6,7 @@ const communityController = require('./../controllers/communityController');
 router
   .route('/')
   .get(communityController.getAllCommunity)
-  .post(communityController.createCommunity);
+  .post(communityController.getUserId, communityController.createCommunity);
 // get all members of community
 router.route('/:id/members').get(communityController.getAllMember);
 // // Get community owned by me

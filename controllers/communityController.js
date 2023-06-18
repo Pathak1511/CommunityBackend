@@ -29,8 +29,9 @@ exports.getUserId = catchAsync(async (req, res, next) => {
 exports.createCommunity = catchAsync(async (req, res, next) => {
   const name = req.body.name;
   const owner = req.body.owner;
+
   let newCommunity = await community.find({ name, owner });
-  if (!newCommunity[0]) {
+  if (newCommunity.length == 0) {
     newCommunity = await community.create({ name, owner });
   } else {
     return next(new AppError('Community already existed', 200));
