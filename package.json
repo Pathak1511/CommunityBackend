@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "start:dev": "nodemon server.js",
-    "debug": "ndb server.js"
+    "start:dev": "nodemon server.js"
   },
   "author": "Hritik Pathak",
   "license": "ISC",
