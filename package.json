@@ -1,0 +1,35 @@
+{
+  "name": "top-10",
+  "version": "1.0.0",
+  "description": "weekly latest top 10 app project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Hritik Pathak",
+  "license": "ISC",
+  "dependencies": {
+    "@theinternetfolks/snowflake": "^1.3.0",
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.3",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^6.1.0",
+    "helmet": "^5.0.1",
+    "hpp": "^0.2.3",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "slugify": "^1.6.5",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "engine": {
+    "node": ">=10.0.0"
+  }
+}
