@@ -4,7 +4,8 @@
   "description": "weekly latest top 10 app project",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
     "debug": "ndb server.js"
   },
   "author": "Hritik Pathak",
