@@ -30,7 +30,7 @@ For detailed information about each endpoint, request/response structures, and a
 
 ## Support and Issues
 
-If you encounter any issues or have questions about the API, please feel free to create an issue in this repository. Our team will be glad to assist you or email us at [Email](jsdeveloper788@gmail.com)
+If you encounter any issues or have questions about the API, please feel free to create an issue in this repository. Our team will be glad to assist you or email us at [jsdeveloper788@gmail.com](mailto:jsdeveloper788@gmail.com)
 
 ## Contributing
 
