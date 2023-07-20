@@ -1,0 +1,647 @@
+// 11 test cases t
+
+11
+5 2
+ababa
+ab
+10 4
+codercodes
+code
+3 1
+abc
+a
+9 2
+cbdbadabd
+ad
+8 2
+ccbbcbab
+ad
+6 1
+bcacdb
+d
+9 2
+bababbcab
+ab
+6 1
+ccbdcb
+b
+4 3
+dada
+bbc
+3 2
+cdb
+cd
+7 2
+dbadcdc
+db
+
+// 100 test case (1)
+
+100
+35 16
+edfbbfdcacddfefeacbeabfbfbebeabffcf
+eacbeabfbebeabff
+39 12
+feaeadafaadceccfabfbfaebeeaddbfdbadfcab
+adafaadceccf
+39 17
+bdcafdceeacabfdbcbdadebabccdcdcfeaeacaf
+debabccdcdcfeaeac
+35 15
+ffbcfccddbcebaabddfffbaedaefdafdbab
+cfccddbcebaabdd
+35 17
+abefeebbbcafabfdecefeabecccffbfbbcd
+fdecefeabecccffbf
+30 13
+cbecaaeafbfcbffecabbfdcffeeaec
+eafbfcbffecab
+40 13
+acfdfdabcdbfefbfccdefeebbcabcefcddeafedc
+dabcdbfefbfcc
+32 14
+eccddcdcabddafcfebbfecababbfcdae
+abddafcfebbfec
+38 10
+aefebbcadddbdccbadfcedbfecaedccefcefaa
+bbcadddbdc
+31 13
+dfacbcdaffcdedfdabcfccefcaeeefe
+facbcdaffcded
+31 15
+aebcccdddefcfcaedfdecfbdeceffcf
+cfcaedfdfbdecef
+40 16
+afbdabcfedcaecebfbcbdbacffaebdfbecbfbbcd
+dcaecebfbcbdbacf
+31 18
+cdbfbcaffbdfbdadceaecaddceedbfc
+affbdfbdadceaecadd
+32 11
+cbbcafadeecaedbbcdcebbdfcbcbbedb
+ecaedbbcdce
+39 17
+decfdfbeedccdfffceabcaeeccebddefeabbdce
+edccdfffceabcaeec
+40 17
+eeaceaaaeefbdedfcebabbdccdaccefacfbbcbbe
+ceaaaeefbdedfceba
+39 19
+cedaabacaddbcdbcccdeafbaabeecddbdacefac
+abacaddbcdbcccdeafb
+32 15
+dabaeacbefafcebfbeaddadddadcffbd
+fbeaddadddadcff
+40 17
+abaeffedeefbaeefcccebcfeadaabaddaafecfbc
+edeefbaeefcccebcf
+35 11
+facfbbfbfdfebafccbcbbfaffcfddfbfeaa
+bbfbfdfebaf
+34 13
+aeacdacecccdaefeafcfceabbeffffdeea
+cdaefeafcfcea
+38 11
+efafeedcbebdecdfdbfeabaadfdaabebeadddb
+edcbebdecdf
+38 19
+fdeaaecababcaabfafbceafaecdbadabedadee
+fafbceafaecdbadabed
+35 14
+fbaafccbcbecdbafcabbbcecdefacffceec
+aafccbcbecdbaf
+33 18
+fccaacfeaceddefccadbcbbebbedfcdfd
+ceddefccadbcbbebbe
+38 11
+cceaabcdacdcaebeabceececacdedcdcbbfdfb
+cacdedcdcbb
+39 10
+affcabfbffaecbecffceaecbadbbbecfacbefab
+becfacbefa
+38 20
+ffbbbbcabaeddbcbcccccdddeffcdadbfdfeda
+ddbcbcccccdddeffcdad
+34 16
+cbcafddecfdaedcabeaefaddecebafaefa
+eaefaddecebafaef
+36 14
+ecddcfcecbfacecfabedcbabffeadacbabcf
+babffeadacbabc
+34 14
+dbebaafdfccfcdabccafebdddabbbbcbca
+afdfcccdabccaf
+30 18
+dcccafcafcdadaafccbebbbfffbeeb
+cdadaafccbebbbfffb
+31 16
+dbbfddfaebddccfafbcddadcadcedab
+dfaebddccfafbcdd
+32 18
+dcedfbbccceaacadfaecfbdabeeedeee
+fbbccceaacadfaecfb
+31 20
+ecbdbbafcebfbcaeebfedcdebefbacd
+cebfbcaeebfedcdebefb
+34 13
+efafeecbadcaabdceacafdecbbfdaebeec
+dcaabdceacafd
+35 14
+aafbfaffcdfffbbfabfaafcbcdbedfceaef
+ffbbfabfaafcbc
+39 10
+aafbffcbfcbaefcbfecaaaaccebebfccbacedec
+cbfcbaefcb
+36 20
+ccadecaabebfdecbdaeefedfefccafaeaeef
+aabebfdecbdaeefedfef
+37 18
+deddebededacbddaeaabfeedbdcacdcbedcbd
+aabfeedbdcacdcbedc
+38 11
+ffcfaaaccdfeecbecaddfabcbaacbefdfcabce
+bcbaacbefdf
+33 14
+edacfaffefecebebededdffaabbccddaa
+fecebebededdff
+32 12
+bbafdcbeddbccfeaffcaeeccabcdedad
+fcaeeccabcde
+35 18
+cfedccabfdffaacabbecedccdabaeebfaca
+bfdffaacabbecedccd
+40 20
+dfbcabfedcaecdacccdfcbfaafcebbabfdecfdeb
+dacccdfcbfaafcebbabf
+31 19
+bfdcbcdcaaddeedaaeeffaaddebbbed
+dcaaddedaaeeffaadde
+35 15
+dcfedfabeaedbcbbaeffecbbeabcdebefca
+baeffecbbeabcde
+33 19
+ddeafaeabfbefaeaeeedffdeeabaeccae
+faeabfbefaeaeeedffd
+32 18
+dabcdaffdcdadfbefddffbaefabcedab
+ffdcdadfbefddffbae
+31 10
+facbbfdddceddefebcffefbefcdcfaa
+ddefebcffe
+38 17
+ccdadffbbecceeecbafebceffedaabffcadfeb
+afebceffedaabffca
+38 14
+cfbddafefebcdafeedacdaebbcfafdceacccdf
+daebbcfafdceac
+33 12
+beaddcfdfedddbacbbaeadbffdfceccbe
+ddcfdfedddba
+30 11
+faadffaddeecdeabcbaaecdafbabbd
+aadffaddeec
+31 16
+beffefcbfdeffcaefaefeeefebfebcb
+effefcbfdeffcaef
+30 17
+ebeeaebedfbfacbacdfaaaedcabeba
+eeaebedfbfacbacdf
+36 19
+ecfdbadbebfdaadbcfdaebcafcdcefcceffa
+badbebfdaadbcfdaebc
+32 11
+bdbaaaacbafdfbffefaebabdbceabdfc
+ffefaebabdb
+39 11
+dcdffaddcacefedefebcbffaafbabfcfbcfdcdd
+abfcfbcfdcd
+33 16
+dcccdacaecabdeffafccecdbacabbdadf
+effafccecdbacabb
+38 10
+fabcacdedabcaaefeabfaddcddfdadaebffcfd
+cdedabcaae
+37 17
+aeafaecceedddcefebbafeafdbebbddcdeabb
+afeafdbebbddcdeab
+32 15
+abfdefacecffbfedeaccecfccfbabdcb
+eaccecfccfbabdc
+34 16
+ddbbcdafdbccfdadceceaabccfaccaeaac
+fdadceceaabccfac
+30 11
+bfeaffaedaddbfddcdcaeabcfedfef
+daddbfddcdc
+31 16
+ddfafcbdbcbfbcddabfbfbeeafecfaa
+cddabfbfbeeafecf
+33 17
+fddcedcfdaddabbcdaaaddaebaacfedaa
+fdaddabbcdaaaddae
+32 15
+eabeafbcfddbceffaebadbdfeffffdbb
+abeafbcfddbceff
+33 17
+debacdbdffcabbadedcdaececfecacabf
+acdbdffcabbadedcd
+39 11
+dbfbbabbabbaebbccccdbdccfbabbcfaaedecac
+abbaebbcccc
+32 14
+ffaecadcfaacdbecddddcceebaccedba
+ecadcfaacdbecd
+35 13
+dfadcafbeaaaaaeddececcbdeffacaaeaec
+cafbeaaaaaedd
+31 10
+ddbaefdcebeaccfcaaaceadddfbfcee
+ccfcaaacea
+38 10
+edbcacacaedfdbadaccffcdcebbebadfecccdc
+ebadfecccd
+35 17
+afafbaaacbfdcedccabffcddcbcbafafdae
+cabffcddcbcbafafd
+30 15
+bccdedabdddabfaebbbdafaabedebf
+dedabdddabfaebb
+37 17
+dbeadcecdbccdbeecdabfdeebdebcecdfcbfa
+bfdeebdebcecdfcbf
+33 10
+dbabacfbfabefdafebedacefbaffcdacf
+dacefbaffc
+32 10
+faeecdddeecadbbbdefcdefdcfebecdf
+dddececadb
+31 11
+cfeddcdddcdafdccddccabbceafbfda
+ccddccabbce
+38 17
+ebcfbedabdabcdddceceeeaeffdecdaffeaebb
+eeaeffdecdaffeaeb
+39 18
+ffffafccffecddadcfbcbcdcfedbefddcfbccdc
+ddadcfbcbcdcfedbef
+34 20
+dcedafeeffaeeebfaffabafadfeecbeadc
+cedafeeffaeeebfaffab
+37 10
+fcacdfadedffeabacbbbbacefbdedcdfebdad
+dfadedffea
+37 14
+cadffadfececabefcdababecbceeebdbffcfb
+befcdababecbce
+32 13
+cbeffbfcbacedcfadebcddebfaedffee
+bacedcfadebcd
+34 20
+cbafddedbddaeddefcbdeccadfeffbabbd
+edbddaeddefcbdeccadf
+38 12
+ececeafbaeebcdceceecdccdbccacbdeefaafc
+bcdceceecdcc
+30 11
+ccdedcadffeecbeaaaeccbcfbfddae
+eccbcfbfdda
+37 16
+bdcecbeaaeacacffcdafacaacaccaecbccaed
+beaaeacacffcdafa
+36 16
+dffbbdcaffcffbbaeddaafedebcffecfedfb
+fbbdcaffcffbbaed
+35 10
+ddaeedcdbcbecabcbbbdfbeacedceadbdec
+fbeacedcea
+32 10
+acdceaecefccecaffdccdfcebbaabadb
+affdccdfce
+33 13
+faaecfabacdfbfcdcbecffdceebdeddda
+cdcbecffdceeb
+40 14
+bcbccfaaeddecafbdfbdafcbaeeacaccaaeecfef
+cbaeeacaccaaee
+35 18
+adceabbbaffdbdcbfbfedcbdbddecdfcfea
+fdbbfbfedcbdbddecd
+33 17
+bebfadfcdbefffbfbcacdcbaecfffdbfe
+fffbfbcacdcbaecff
+40 19
+bffcfcbabdefefbcefaababeeeefafdeeccebcbf
+defefbcefaababeeeef
+36 18
+ccacbbdbfaaadeffacdcdeaadbccfdddbcef
+aaadeffacdcdeaadbc
+33 13
+ddbeedabfdbfebeceeebdefbabcbfbbbc
+ceeebdefbabcb
+
+
+
+// Another 100 test case (2)
+
+
+100
+46 18
+bccdfaafaadfefafcdbcdbebfbbaececbdeaddecddbdca
+bbaececbdedecddbdc
+46 27
+afdabaeedaccbcfaeceebefffbeeefdabbfafbefcbcdce
+aeedaccbcfaeceebefffbeeefda
+42 26
+cdcdffaeceebfeeadcdafdabbffededecdffdbdfdc
+eeadcdafdabbffededecdffdbd
+48 20
+abdabdbabdbddccaffcfacfdefbddcabeaafbbfacffdcbff
+dbddccaffcfacfdefbdd
+48 35
+edddddbccefaacffccfcacbeebcafddbdddabaebfdefebcb
+dddddbccefaacffccfcacbeebcafddbddda
+45 26
+fafdabafacdfdecfcfaeaafcdbaafdfacfcacebcfaccd
+afacdfdecfcfaeaafcdbaafdfa
+49 24
+efddfcbbbfefebabbbcaefdeafdaddccaeaadcefcfcaaceda
+bcaefdeafdaddccaeaadcefc
+41 28
+ddccbcabcbbafecbfcbeacdbedddadccecdbfefcc
+cbcabcbbafecbfcbeacdbedddadc
+44 29
+faacebbdceafcbceedccfbdbaefdaeabfdacbedcfade
+acebbdceafcbceedccfbdbaefdaea
+49 21
+cafedcbebeedadedfbfeaeaadebdbbbdebdffdaededdfcdfa
+beedadedfbfeaeaadebdb
+40 31
+fcdecdcfefacfecefceeaedaceefccadfdecfcfd
+cdecdcfefacfecefceeaedaceefccad
+41 22
+aaeffcdaefdcafedffccbfdbefffeadcbceffefcf
+effcdaefdcafedffccbfdb
+45 30
+eaaceaddecdfefaeaefdfcecabefafecbdcaabdcffddb
+ddecdfefaeaefdfcecabefafecbdca
+42 21
+fcadeaeabaffecacbccefafaffdefaaafbdbdbbfaf
+baffecacbccefafaffdef
+46 23
+feeadfaaecddfeddfcaafeebbaabaaebdccaccedaaeabb
+ddfcaafeebbaabaaebdccac
+47 32
+bbaebbaabaffcdbcfacbbbdcdfdcaaadcbbebcfdccbfcaf
+bbaabaffcdbcfacbbbdcdfdcaaadcbbe
+40 33
+dfbaecbddecfbeabcfdbdfdacbbcefeeeadbeafc
+bddecfbeabcfdbdfdacbbcefeeeadbeaf
+48 23
+addacddfefecebbaddffbefdcfcfabaafebefccfdafeebce
+ebbaddffbefdcfcfabaafeb
+47 21
+fccecfdaedeedbfffdcafbdbddcddecbcbdfcaffccceddd
+bdbddcddecbcbdfcaffcc
+43 22
+aedcbfcbccaeadcadddeacaaebbdaaddabcaafcfacd
+acaaebbdaaddabcaafcfac
+48 28
+ecebedebdabfceeaaedcbadcdccbdaedcfcadfbdaebdfffe
+dcbadcdccbdaedcfcadfbdaebdff
+43 31
+ccccccadecdbcdfadabeeadbbcfecedcdbfebfecfad
+decdbcddabeeadbbcfecedcdbfebfec
+43 22
+bebafbcbecfbfcefdabcbbecfbccffeebbaaeabffec
+dabcbbecfbccffeebbaaea
+50 30
+ceecdbabdaefdcbdcebffdedfffdceefdcfcafeeecbcffeeef
+cdbabdaefdcbdcebffdedfffdceefd
+48 31
+eccddebbbefbbacedbadefbaaecacbadffeefedebeabdbcd
+acedbadefbaaecacbadffeefedebeab
+50 31
+dabfbbcbfadeaddbecfebdfadacceceeffedafbddecbcdebae
+addbecfebdfadacceceeffedafbddec
+49 21
+bafebbfddbceaadeeeeaaebdbcdcbbbaedfdbbfdfdfdefabf
+ebbfddbceaadeeeeaaebd
+43 33
+beffaaafbdefbfacafeaafdebbaefdaadbabddafcac
+effaaafbdefbfacafeaafdebbaefdaadb
+50 27
+eacaaefdcfabeabffcbfedcefebefaaeabdfffcbcfcdfbdadc
+cefebefaaeabdfffcbcfcdfbdad
+43 35
+bfcbaeabaccdbbbcdfbebeecadcddbabfedcebbdbcb
+abaccdbbbcdfbebeecadcddbabfedcebbdb
+47 23
+cbbccaadcfefeceaaaafadcadacdcacabdabadeeadbdacb
+adacdcacabdabadeeadbdac
+41 23
+ddccbadffbbcffaebbddbccacdedafbebaacdddda
+ffaebbddbccacdedafbebaa
+49 28
+dcacdcaceaccafebeffbdbdcadadcdfbefaebeabccbeffeef
+ccafebeffbdbdcadadcdfbefaebe
+40 26
+dffdffcbceceaafafefaedabaabdfebcaebfdaea
+ffdffcbceceaafafefaedabaab
+49 29
+caebadacbcacdcdafeafaefeedebecaebeedbdecbfaedebaf
+ebadacbcacdcdafeafaefeedebeca
+45 29
+eedfeadbfacfeedcdeacaadecdfcdbabcbdbadeeaabbf
+edcdeacaadecdfcdbabcbdbadeeaa
+43 33
+cfcdfdfdcbbedffcbdefdccdadeeddddfdcadbebdbc
+dfdfdcbbedffcbdefdccdadeeddddfdca
+49 23
+fedffececbeaecebeaeeafeeeecefbdbdcdfefcebbfccefab
+edffececbeaecebeaeeafee
+47 28
+caceacbdfcaaaceaaecbcebcfcebbecbffdfafbcbbbebac
+aecbcebcfcebbecbffdfafbcbbbe
+50 22
+bfecaebcbcacdabeadbdcaecfceeedcbbdeffcdaaebdbbcaed
+ebcbcacdabeadbdcaecfce
+42 35
+bdcbcdecceebcdfedddadbaffbcebdcebfedabcede
+dcbcdecceebcdfedddadbaffbcebdcebfed
+48 23
+eeeeabfcfdfebcbafeacdbfdfbbffefdaccedeeadccadbbd
+dfbbffefdaccedeeadccadb
+45 30
+cfffdddefbdbfecefecbeaddcbefccadcbcfcbebadecf
+dddefbdbfecefecbeaddcbefccadcb
+45 27
+eafafdfbfabfabfaaeaacbafadbcaeddbacacbebfcdad
+bfabfaaeaacbafadbcaeddbacac
+47 28
+dcafaabcfbfefadeefffcdbbaeedabddfcacaedecbfcceb
+bcfbfefadeefffcdbbaeedabddfc
+47 31
+cdeeedfedaaacfdadceffdeccefaaadbecefadbbbabfeef
+edaaacfdadceffdeccefaaadbecefad
+47 35
+dfbbfeddecfbcbedecfddbfffbabebdccfbfcdaefbcdabc
+bbfeddecfbcbedecfddbfffbabebdccfbfc
+49 24
+ccbdfedaebfbdecbafbbfeeecfeaedebeefadbeafeffccfac
+cbdfedaebfbdecbafbbfeeec
+45 22
+cacfdcebffffbdcfebbcbbffceedecfbdaedddffbcdfc
+bffceedecfbdaedddffbcd
+40 24
+fbcdeeddbeecfefffaebefaaaabffbbdacfacaaa
+efffaebefaaaabffbbdacfac
+42 25
+dffcfcbcbbaeaaeabaddfcdbbfadcebbdfacdfbfee
+aeaaeabaddfcdbbfadcebbdfa
+47 35
+cfeabfebecbadcccbeebdbedcdbfcaecfbabfafaaadaecc
+abfebecbadcccbeebdbedcdbfcaecfbabfa
+43 22
+afefbbbfafafbbfbabfbabdecefbfdfbefccddffdca
+bfbabdecefbfdfbefccddf
+42 28
+ededaddfbbaecbafcddbbabaeccfceaabcbefdaaec
+bafcddbbabaeccfceaabcbefdaae
+50 34
+fdefeecbecbaeacffeddbfcadcacabfebecbfdddcccfbfbcea
+eecbecbaeacffeddbfcadcacabfebecbfd
+47 23
+afefafcfcdddfedeadeeddeccacefdbcdbaabddebaeeefc
+efafcfcdddfedeadeeddecc
+47 24
+befdabebccdebfbbefdacfdadebefaafdaffbdbcadffeea
+debfbbefdacfdadebefaafda
+47 20
+feebafdecfcebaefecdeeffeecfdffdbeccfbfcfbfbecfc
+eebafdecfcebaefecdee
+47 20
+efddcacfeefaffeeeddeeaebfabfbfdfcffecbaeeecbafb
+cfeefaffeeeddeeaebfa
+45 33
+accccabfdcbfffdcdabdaaedabeadeccfbebadbdcfcbe
+fffdcdabdaaedabeadeccfbebadbdcfcb
+43 26
+cfdffbccbfadbeccededefdccdddbdabfdaefdaafba
+ccbfadbeccededefdccdddbdab
+44 34
+ccbfcbafefaacdceaeeaebbabebccabdfdedabccddff
+cbfcbafefaacdceaeeaebbabebccabdfde
+44 32
+ffeffeffeddaeacbbdddbbccabfbcdefacfcafbdbfec
+effeddaeacbbdddbbccabfbcdefacfca
+45 20
+baceddcbfaeaffcfdceabceafdffceaacabbdbdeafebf
+ddcbfaeaffcfdceabcea
+48 28
+bffaafffbdefecfddaefaffcabcbafcedabacbfecbaaddbd
+faafffbdefecfddaefaffcabcbaf
+48 20
+cebffdccacbfedcbfdacceabfcaefcecdeeddeaddebfbedf
+cbfdacceabfcaefcecde
+47 21
+abaadcafcdddfdbbafcdfaabdbdfcdcfdfdbabbbfdaeced
+afcdfaabdbdfcdcfdfdba
+50 20
+acffffcbbacdeafeeeeeafdaeefbafbfdfbadedeafbacafeaf
+bbacdeafeeeeeafdaeef
+45 31
+aecbbbaaeebafdcaeddfbaccaecdcaeebdddcbafbeffb
+dcaeddfbaccaecdcaeebdddcbafbeff
+44 21
+aeafdfbfbadcfccbbfbbddcceddacbeeeeacadfcdbce
+eafdfbfbadcfccbbfbbdd
+42 24
+cfbebfcaaedceccebdbabedfccfcceebadbcbcdeda
+dbabedfccfcceebadbcbcded
+48 22
+caabdeedbcaeebccefbeadabdefccaecaeecdaceecccbdec
+dbcaeebccefbeadabdefcc
+48 33
+cfbabeebafafedaaedfcecaafebfebdddcbcacbaddecaafd
+fedaaedfcecaafebfebdddcbcacbaddec
+41 33
+ceeccedfedfeecebfcdbebabdbeccefabbeaeeeeb
+eccedfedfeecebfcdbebabdbeccefabbe
+47 22
+edfcbbfcfaabdfaeeccbdfabbfaeccaafaaedeaffdfefcd
+faeeccbdfabbfaeccaafaa
+50 26
+dcbccadecbbfccfacdfbfdbdbbfafceccdeceabebfbbbcfbfd
+facdfbfdbdbbfafceccdeceabe
+48 34
+edaeefafddedcbccacdcceabbefabfecebcbbdcedcfbbfab
+dcbccacdcceabbefabfecebcbbdcedcfbb
+42 21
+fccdecacfaecfbcfeabcfefdeabeacfcdaadeeffbd
+ecacfaecfbcfeabcfefde
+41 28
+bffeecfbafbcbfccbfbdffcffedafdaacfbcdddec
+bcbfccbfbdffcffedafdaacfbcdd
+45 26
+ddffdfedadbdabcbacecdbffeabafecbdcddababdfcae
+fedadbdabcbacecdbffeabafec
+49 35
+dbacadbcebafedaadabbdccfbcefcfabdccbdedecdccaedaf
+cebafedaadabbdccfbcefcfabdccbdedecd
+44 26
+feafcbbfbadfdbdbbdbecfbeddbacddbcbcdbbffdbab
+fbadfdbdbbdbecfbeddbacddbc
+49 30
+fadbedacedcaddaeffdebbbaefdbaefbbabeebcbceecaaedd
+edacedcaddaeffdebbbaefdbaefbba
+50 21
+eefcfabfebdebabcdffeccceaaafebddfceeddaeacecdcdede
+bdebabcdffeccceaaafeb
+46 35
+befccfecdcbdedcebbffafdeabaeedaabbacbccaeebcee
+cdcbdedcebbffafdeabaeedaabbacbccaee
+46 22
+ebadfcdfaeebcbcbfdaeebceebeadedfcabdabbeffdcbe
+bcbfdaeebceebeadedfcab
+49 22
+dedfaccfcaabfefafadffefcfbdeebfcfefbbaefdbdaceefc
+dffefcfbdeebfcfefbbaef
+47 27
+faaecabdcbbbbbfcfdcfceabcfabefbebecbfdcbecbddfa
+bfcfdcfceabcfabefbebecbfdcb
+43 26
+ebccbfaabaefdeadfdefaecabbafacadcfedabfecff
+dfdefaecabbafacadcfedabfec
+41 26
+dfdeeadbddabaaafedcaafaffdbaaadbbacefface
+deeadbddabaaafedcaafaffdba
+42 33
+fbdccffbcbaaacafeffdeefdaedacbddbebbcfdadc
+bdccffbcbaaacafeffdeefdaedacbddbe
+42 28
+cdcbdabdabbbbecbddadfcaffbcebeecaaddfffaab
+bbbecbddadfcaffbcebeecaaddff
+48 35
+ffcccfdfbfcaeabbabfaadbdaaccbfcbedfccafcbccaddbe
+bfcaeabbabfaadbdaaccbfcbedfccafcbcc
+41 27
+baedbbefcdfeddbcedaabcffadefcdcfcceecaaea
+dbcedaabcffadefcdcfcceecaae
+47 30
+baefbfbdeefeebcfafaeeeaecbdabbccfceeeaaeedfbdaa
+fafaeeeaecbdabbccfceeeaaeedfbd
+40 20
+bffdacfcdabfebeccefcaaafcfaecbbbbeffafbf
+ffdacfcdabfebeccefca
+42 33
+cbcbcfbaeefafbfedccfecdefbbafccbdacebaffab
+eefafbfedccfecdefbbafccbdacebaffa
+40 25
+eafdadfeffcffaddcfaefbdbabbfabcbadbcbbfb
+effcffaddcfaefbdbabbfabcb
+47 31
+ccfdeebdadebeadabfecdfbccaabddeaeefbbbfafdeafae
+bdadebeadabfecdfbccaabddeaeefbb
+47 30
+decaedaccbedafabcadacebffcadeffabeacbbedeffafcb
+afabcadacebffcadeffabeacbbedef

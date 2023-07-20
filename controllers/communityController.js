@@ -31,7 +31,7 @@ exports.createCommunity = catchAsync(async (req, res, next) => {
   const owner = req.body.owner;
 
   let newCommunity = await community.find({ name, owner });
-  if (newCommunity.length == 0) {
+  if (newCommunity.length === 0) {
     newCommunity = await community.create({ name, owner });
   } else {
     return next(new AppError('Community already existed', 200));
@@ -56,7 +56,13 @@ exports.createCommunity = catchAsync(async (req, res, next) => {
 
 // getting all community
 exports.getAllCommunity = catchAsync(async (req, res, next) => {
-  const AllCommunity = await community.find();
+  const pageSize = req.query.pageSize ? parseInt(req.query.pageSize) : 0;
+  const page = req.query.page ? parseInt(req.query.page) : 0;
+
+  const AllCommunity = await community
+    .find()
+    .limit(pageSize)
+    .skip(pageSize * page);
   res.status(200).json({
     status: true,
     content: {
